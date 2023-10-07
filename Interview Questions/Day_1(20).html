@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- 
+        //1
+        1. What is JavaScript?
+    A high-level, interpreted programming language called JavaScript makes it possible to create interactive web pages and online apps with dynamic functionality.
+     Commonly referred to as the universal language, Javascript is primarily used by developers for front-end and back-end work. -->
+
+
+    <!-- 2
+     what is Client side and server side
+
+     A clinet side is a device, appplication,or software component that requests and consumes service or resources from a server
+     A server is a device , or software application that provide service , resources of funtions to clients.
+      -->
+
+    <!-- 3.
+     what is scope in JavaScript
+
+     scope are three types
+
+     global variable
+     funtion variable
+     block variable
+
+     scope determines where variables are defiend and where they can be accessed -->
+
+
+    <!-- 4. what is the type of variable in JavaScript where it is decleared without using the var, let,const keywords
+
+    if (true){
+    variable=25;
+    console.log(variable);
+    } -->
+
+
+
+    <!-- 5. 
+    what is the hoisting in Javascript
+sol- check 2 types- of hoisting
+
+my function(); -- function hoisting
+function myfunction(){
+    console.log(RRcoders);
+}
+
+
+x=25;-- variable hoisting
+console.log(x)
+var x; 
+
+Hoisting is a javascript behavior where funtions and 
+variable declarations are moved to the top of their respective scopes during the competition phase -->
+
+
+
+    <!-- 6.
+    what is json
+    json is javascript object notation a light weight data interchange format
+    json consist of key -value pairs -->
+
+
+    <!-- // 7
+    what are variables ? what is diffrence b/w var,let , const?
+
+    variables are used to store data
+
+    var- var creates a function scoped vaiable
+    funtion example(){
+    if(true){
+    vare count=20;
+    console.log(count);
+    }
+    console.log(count);
+    }
+
+    let- let creates a block scoped vairbales
+    funtion example (){
+    if(true){
+    let count =10;
+    console.log(count)
+    }
+    console.log(count);
+    }
+
+    const- const can be assigned only once and its value can not be changed afterwards
+    const z= 10;
+    z= 20;
+    console.log(z)
+
+    one more example & defination
+
+    let and const were introduced in ES6 and have block scope.
+    let is reassignable, and const is non-reassignable.
+    var is function-scoped and can be redeclared and reassigned throughout the function.
+
+    let x=5;
+    x=10;
+    console.log(x)
+    op-10
+
+    const y=5;
+    y=10
+    console.log(y);
+    error assignment to constant vairbale
+
+    var z = 5;
+    var z=10;
+    console.log(z)
+    op- 10 -->
+
+
+//8
+what are data types in js
+
+twoo types - primitive  and non primitive
+primitive - numbers, string, booleans, undefined, null
+
+primitive data types can hold only siingle value
+primitive data types are immutable means their value can not be changed
+
+let age=30;
+age=40;
+
+
+non- primitiva- object , array, function, date etc
+
+non primitive data types can hold multiple values 
+they are mutable means their value will changed
+non primitive data types are complex data types
+
+//arry-
+
+let odd numbers=[1,2,3,4,5]
+
+//object
+let persion ={
+    name:'RRcoders',
+    age:'24',
+    grades:["A","B","C"]
+    great:function(){
+        console.log (this.name);
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
